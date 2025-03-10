@@ -172,8 +172,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       notion-to-md:
-        specifier: 3.1.5
-        version: 3.1.5
+        specifier: 3.1.7
+        version: 3.1.7
       oauth-1.0a:
         specifier: 2.2.6
         version: 2.2.6
@@ -5076,8 +5076,8 @@ packages:
     resolution: {integrity: sha512-IO9QvjUMWxPQQhs60oOu10CRkWCiZzSUkzbXGGV9pviYl1fXYcvkzQ5jV9z8Y6un8ARoVRl4EtC6v6jNqbaJ/w==}
     engines: {node: '>=14.16'}
 
-  notion-to-md@3.1.5:
-    resolution: {integrity: sha512-s45+uvPyLbeC/g9J7Yrhz00Wbs+q4539mZQLkS8bOhZ7yVYkCPzc6QKUy0NAeTAPJYwSY4R7Ijd4VzDSHIlaQg==}
+  notion-to-md@3.1.7:
+    resolution: {integrity: sha512-DXW4JzDTXmH8VY9v+3Kv2lEI2jMzN23bUSO9hqqkVkTuI4hgbAhtfkTx3L6vw7M/J7wMdkqdF88Vw5dGKwZBIw==}
     engines: {node: '>=12'}
 
   npm-run-path@5.3.0:
@@ -6622,6 +6622,7 @@ packages:
   yaeti@0.0.6:
     resolution: {integrity: sha512-MvQa//+KcZCUkBTIC9blM+CU9J2GzuTytsOUwf2lidtvkx/6gnEp1QvJv34t9vdjhFmha/mUiNDbN0D0mJWdug==}
     engines: {node: '>=0.10.32'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -12284,7 +12285,7 @@ snapshots:
 
   normalize-url@8.0.1: {}
 
-  notion-to-md@3.1.5:
+  notion-to-md@3.1.7:
     dependencies:
       markdown-table: 2.0.0
       node-fetch: 2.7.0
