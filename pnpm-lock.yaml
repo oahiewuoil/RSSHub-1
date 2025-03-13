@@ -70,8 +70,8 @@ importers:
         specifier: 3.1.2
         version: 3.1.2
       art-template:
-        specifier: 4.13.2
-        version: 4.13.2
+        specifier: 4.13.3
+        version: 4.13.3
       cheerio:
         specifier: 1.0.0
         version: 1.0.0
@@ -2266,8 +2266,8 @@ packages:
     resolution: {integrity: sha512-sKpyeERZ02v1FeCZT8lrfJq5u6goHCtpTAzPwJYe7c8SPFOboNjNg1vz2L4VTn9T4PQxEx13TbXLmYUcS6Ug7Q==}
     engines: {node: '>=0.10.0'}
 
-  art-template@4.13.2:
-    resolution: {integrity: sha512-04ws5k+ndA5DghfheY4c8F1304XJKeTcaXqZCLpxFkNMSkaR3ChW1pX2i9d3sEEOZuLy7de8lFriRaik1jEeOQ==}
+  art-template@4.13.3:
+    resolution: {integrity: sha512-+BxRfoKNSipQP2yJSM55wFAAXYe42mxWF3LnIPGl9TmXnPlNpDR9NThqDU2Ns4yFJXVugHmy1m0LjyNjDFXZUA==}
     engines: {node: '>= 1.0.0'}
 
   asap@2.0.6:
@@ -7882,7 +7882,7 @@ snapshots:
 
   arr-union@3.1.0: {}
 
-  art-template@4.13.2:
+  art-template@4.13.3:
     dependencies:
       acorn: 5.7.4
       escodegen: 1.14.3
