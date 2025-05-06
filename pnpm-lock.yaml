@@ -28,8 +28,8 @@ importers:
         specifier: 0.18.4
         version: 0.18.4(hono@4.6.20)(zod@3.24.4)
       '@notionhq/client':
-        specifier: 2.2.17
-        version: 2.2.17
+        specifier: 3.0.0
+        version: 3.0.0
       '@opentelemetry/api':
         specifier: 1.9.0
         version: 1.9.0
@@ -1603,9 +1603,9 @@ packages:
     resolution: {integrity: sha512-nqk0vlqUL0wmmoPrm2HqDi0KXGy+jTNHlH/oSx7jsrh2rEApSy1mactsSUGWnhuz2ZsngJSrVHWZIaJKi3WUNA==}
     engines: {node: '>=12.4.0'}
 
-  '@notionhq/client@2.2.17':
-    resolution: {integrity: sha512-whkUc2RFAk7Vo93todfwsK6bxEHrBg4JSUHN+8cvopZGKsnU8aVL4JtJ6W2cexRz0Bp0AfznHsY7eD8/vNgMCw==}
-    engines: {node: '>=12'}
+  '@notionhq/client@3.0.0':
+    resolution: {integrity: sha512-TlWxZT/rsrjGWJOrnVuiLAlWNPXDumHyRMcw81bJcy2RupSyfjjUCYRELDEyZog48sjVK69/hHLIAwOF3C+ECQ==}
+    engines: {node: '>=18'}
 
   '@one-ini/wasm@0.1.1':
     resolution: {integrity: sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==}
@@ -2043,9 +2043,6 @@ packages:
 
   '@types/mute-stream@0.0.4':
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
-
-  '@types/node-fetch@2.6.12':
-    resolution: {integrity: sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==}
 
   '@types/node@22.10.10':
     resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
@@ -7186,12 +7183,7 @@ snapshots:
 
   '@nolyfill/side-channel@1.0.29': {}
 
-  '@notionhq/client@2.2.17':
-    dependencies:
-      '@types/node-fetch': 2.6.12
-      node-fetch: 2.7.0
-    transitivePeerDependencies:
-      - encoding
+  '@notionhq/client@3.0.0': {}
 
   '@one-ini/wasm@0.1.1': {}
 
@@ -7631,11 +7623,6 @@ snapshots:
   '@types/mute-stream@0.0.4':
     dependencies:
       '@types/node': 22.10.10
-
-  '@types/node-fetch@2.6.12':
-    dependencies:
-      '@types/node': 22.10.10
-      form-data: 4.0.2
 
   '@types/node@22.10.10':
     dependencies:
