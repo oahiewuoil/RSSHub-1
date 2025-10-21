@@ -281,8 +281,8 @@ importers:
         specifier: 7.26.0
         version: 7.26.0(@babel/core@7.26.0)
       '@bbob/types':
-        specifier: 4.2.0
-        version: 4.2.0
+        specifier: 4.3.1
+        version: 4.3.1
       '@eslint/eslintrc':
         specifier: 3.2.0
         version: 3.2.0
@@ -1068,8 +1068,8 @@ packages:
   '@bbob/preset@4.1.1':
     resolution: {integrity: sha512-Qas/hd1jOoZiux9LyPDStxxbSM/qVyts3ZJmFFHa3uzT0d7mKrnHjnI7qahHdo7Ry8CyrvGDDD8qL2A4bIfMqA==}
 
-  '@bbob/types@4.2.0':
-    resolution: {integrity: sha512-bSCZnNg0VrPosBBUVkjBDYVKNEqwT0jTNuzvAuNrZkuILgUKtLYI9GHuT8rY4lZecCb7UqGDsHsYt0YJO36eJg==}
+  '@bbob/types@4.3.1':
+    resolution: {integrity: sha512-TXxFPfKvZVH/sR0mfn5I99bEFmbnAzIoqFBxG1htRiKyJUx7Yb/ZNS/OsQD1mIsR6+srDqXFDaWbDgVudTTjvQ==}
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -4204,6 +4204,7 @@ packages:
 
   mailsplit@5.4.6:
     resolution: {integrity: sha512-M+cqmzaPG/mEiCDmqQUz8L177JZLZmXAUpq38owtpq2xlXlTSw+kntnxRt2xsxVFFV6+T8Mj/U0l5s7s6e0rNw==}
+    deprecated: This package has been renamed to @zone-eu/mailsplit. Please update your dependencies.
 
   make-dir@4.0.0:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
@@ -6794,35 +6795,35 @@ snapshots:
     dependencies:
       '@bbob/parser': 4.1.1
       '@bbob/plugin-helper': 4.1.1
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/html@4.2.0':
     dependencies:
       '@bbob/core': 4.1.1
       '@bbob/plugin-helper': 4.1.1
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/parser@4.1.1':
     dependencies:
       '@bbob/plugin-helper': 4.1.1
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/plugin-helper@4.1.1':
     dependencies:
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/preset-html5@4.2.0':
     dependencies:
       '@bbob/plugin-helper': 4.1.1
       '@bbob/preset': 4.1.1
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
   '@bbob/preset@4.1.1':
     dependencies:
       '@bbob/plugin-helper': 4.1.1
-      '@bbob/types': 4.2.0
+      '@bbob/types': 4.3.1
 
-  '@bbob/types@4.2.0': {}
+  '@bbob/types@4.3.1': {}
 
   '@bcoe/v8-coverage@0.2.3': {}
 
